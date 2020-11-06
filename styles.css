@@ -1,0 +1,77 @@
+/*
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+background-color: FFDDD2;
+padding: 20px;
+margin-left: 10%;
+  margin-right: 10%;
+}
+h1{
+  text-align: left;
+}
+h2{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.textbox{
+  background-color: #FFFFFF;
+}
+img{
+  width: 85%;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+iframe{
+  padding: 10px
+}
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.item{
+  display:flex;
+  flex-direction: row;
+  width: 750px;
+
+}
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+
+
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
